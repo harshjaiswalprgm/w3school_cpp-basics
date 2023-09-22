@@ -13,19 +13,21 @@ int main()
     return 0;
 }
 
-*/
 
-#include<iostream>
+//////////////////////Modify Pointers////////////////////////
+#include <iostream>
 using namespace std;
-int main(){
-string food = "Rice";
-string* ptr =&food;
-cout<<food<<endl;
-cout<<*ptr<<endl;
-cout<<&food<<endl;
-*ptr = pulse;
-cout<<*ptr<<endl;
-
+int main()
+{
+    string food = "Rice";
+    string *ptr = &food;
+    cout << food << endl;
+    cout << *ptr << endl;
+    cout << &food << endl;
+    *ptr = "pulse";
+    cout << *ptr << endl;
+    cout << food << endl;
 
     return 0;
-}
+}*/
+
