@@ -100,7 +100,7 @@ int main()
     return 0;
 }
 
-*/
+
 #include<iostream>
 using namespace std;
 int myFunction(int x, int y) {
@@ -111,4 +111,24 @@ int main() {
   int z = myFunction(5, 3);
   cout << z;
   return 0;
+}*/
+
+#include<iostream>
+using namespace std;                //C++ Functions - Pass By Reference
+
+void swapNums(int &x, int &y){
+    int z=x;
+    x=y;
+    y=z;
+} 
+int main(){
+int firstNum =10;
+int secondNum =20;
+
+cout<<"before swap:"<<endl;
+cout<<firstNum<<secondNum<<endl;
+swapNums(firstNum, secondNum);
+cout<<"After swap:"<<endl;
+cout<<firstNum<<secondNum<<endl;
+    return 0;
 }
