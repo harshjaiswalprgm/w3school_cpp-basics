@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class MyClass {  // The class
   public:        // Access specifier
@@ -10,7 +10,7 @@ MyClass myobj;
     cout<<"hey"<<endl;
     return 0;
 }*/
-/*The public keyword is an access specifier. Access specifiers define how the members (attributes and methods) of a class can be accessed. In the example above, the members are public - which means that they can be accessed and modified from outside the code.
+The public keyword is an access specifier. Access specifiers define how the members (attributes and methods) of a class can be accessed. In the example above, the members are public - which means that they can be accessed and modified from outside the code.
 
 However, what if we want members to be private and hidden from the outside world?
 
@@ -36,7 +36,7 @@ int main() {
   myObj.x = 25;  // Allowed (public)
   myObj.y = 50;  // Not allowed (private)
   return 0;
-}*/
+}
 //error that shown in terminal for better understanding//
 access-specifier.cpp: In function 'int main()':
 access-specifier.cpp:37:9: error: 'int MyClass::y' is private within this context
