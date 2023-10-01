@@ -410,8 +410,8 @@ cout << log(2) <<endl;
     return 0;
 }
 
-*/
-/*Other Math Functions
+
+Other Math Functions
 A list of other popular Math functions (from the <cmath> library) can be found in the table below:
 
 Function	Description
